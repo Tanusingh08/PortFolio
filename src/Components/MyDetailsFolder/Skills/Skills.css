@@ -1,0 +1,317 @@
+.outerSkill {
+  margin: 8rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.topHeading {
+  clip-path: polygon(
+    40% 0%,
+    40% 20%,
+    100% 20%,
+    100% 80%,
+    40% 80%,
+    40% 100%,
+    0% 50%
+  );
+  background-color: rgb(214, 211, 213);
+  padding: 3rem;
+  margin: 2rem;
+  font-size: 25px;
+  color: rgb(78, 77, 74);
+  font-family: "Ubuntu", sans-serif;
+}
+
+.topHeading h1 {
+  padding-left: 30px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.skills-bar {
+  width: 600px;
+  background: #faf8f8;
+  border-radius: 10px;
+  padding: 25px 30px;
+  box-shadow: 5px 5px 1px #d44975;
+}
+
+.skills-bar .bar {
+  margin: 20px 0;
+}
+
+.skills-bar .bar:first-child {
+  margin-top: 0px;
+}
+
+.skills-bar .bar .info span {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.skills-bar .bar .progress-line {
+  position: relative;
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  transform: scaleX(0);
+  transform-origin: left;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05),
+    0 1px rgba(255, 255, 255, 0.8);
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress-line span {
+  height: 100%;
+  width: 80%;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: rgb(211, 105, 155);
+  border-radius: 10px;
+  position: absolute;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+.progress-line.Cpp span {
+  width: 90%;
+}
+
+.progress-line.Data-Structure span {
+  width: 80%;
+}
+
+.progress-line.HTML span {
+  width: 90%;
+}
+
+.progress-line.CSS span {
+  width: 90%;
+}
+.progress-line.Javascript span {
+  width: 80%;
+}
+.progress-line.ReactJs span {
+  width: 80%;
+}
+
+.bar .progress-line span::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: -10px;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: rgb(156, 154, 156);
+}
+
+.bar .progress-line span::after {
+  position: absolute;
+  content: "80%";
+  right: 0;
+  top: -25px;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  background: rgb(156, 154, 156);
+  padding: 1px 8px;
+  border-radius: 3px;
+}
+
+.progress-line.Cpp span::after {
+  content: "90%";
+}
+
+.progress-line.HTML span::after {
+  content: "90%";
+}
+
+.progress-line.CSS span::after {
+  content: "90%";
+}
+
+.progress-line.Javascript span::after {
+  content: "80%";
+}
+
+.progress-line.ReactJs span::after {
+  content: "80%";
+}
+
+.progress-line.Data-Structure span::after {
+  content: "80%";
+}
+
+@media screen and (max-width: 1115px) {
+  .topHeading {
+    padding: 2rem;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1035px) {
+  .outerSkill {
+    margin: 8rem 5rem;
+    height: 80vh;
+  }
+
+  .topHeading h1 {
+    width: 13vw;
+  }
+}
+
+@media screen and (max-width: 1003px) {
+  .outerSkill {
+    margin: 8rem 5rem;
+    height: 80vh;
+  }
+
+  .topHeading h1 {
+    width: 13vw;
+  }
+}
+
+@media screen and (max-width: 947px) {
+  .topHeading h1 {
+    width: 14vw;
+  }
+}
+
+@media screen and (max-width: 885px) {
+  .topHeading h1 {
+    width: 15vw;
+  }
+  .outerSkill {
+    margin: 8rem 2rem;
+  }
+
+  .topHeading {
+    font-size: 15px;
+    padding: 26px 0 26px 15px;
+  }
+}
+
+@media screen and (max-width: 782px) {
+  .topHeading {
+    padding: 28px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 743px) {
+  .topHeading {
+    padding: 22px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 697px) {
+  .topHeading {
+    background: none;
+    clip-path: polygon(0 0, 100% 0%, 100% 98%, 0% 100%);
+  }
+  .topHeading h1 {
+    width: 30vw;
+    font-size: 40px;
+  }
+
+  .outerSkill {
+    margin: 8rem 13px 8rem 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .skills-bar {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .topHeading h1 {
+    clip-path: none;
+    width: 30vw;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 644px) {
+  .topHeading h1 {
+    clip-path: none;
+    width: 30vw;
+    font-size: 40px;
+  }
+
+  .outerSkill {
+    margin: 8rem 13px 8rem 0rem;
+  }
+}
+
+@media screen and (max-width: 644px) {
+  .skills-bar {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .skills-bar {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .skills-bar {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .outerSkill {
+    margin: 8rem 40px 8rem 0rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .skills-bar {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .topHeading h1 {
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .skills-bar {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 313px) {
+  .skills-bar {
+    width: 150px;
+  }
+  .bar .progress-line span::before {
+    top: -18px;
+  }
+
+  .bar .progress-line span::after {
+    top: -34px;
+  }
+}
+
+@media screen and (max-width: 309px) {
+  .topHeading h1 {
+    width: 50vw;
+  }
+}

@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Protest+Riot&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+.MainPage {
+  background-color: rgb(192, 185, 190);
+  height: 96vh;
+  width: 98vw;
+  position: absolute;
+  opacity: 0.9;
+  background-position: center;
+  background-size: cover;
+}
+
+.BackGroundPage {
+  margin-top: 3rem;
+  margin-left: 15rem;
+  height: 80vh;
+  width: 35vw;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+  font-family: "Pacifico", cursive;
+  border-radius: 20rem;
+}
+
+.contentPage {
+  width: 35vw;
+  background-color: rgb(250, 124, 124);
+  position: absolute;
+  top: 80%;
+  left: 75%;
+  text-align: center;
+  transform: translate(-80%, -75%);
+  border-radius: 5px;
+  box-shadow: 12px 12px 2px 1px rgb(0 0 0 / 50%);
+}
+
+.contentPage p {
+  font-size: 18px;
+}
+
+input {
+  border-radius: 5px;
+  padding: 8px 10px;
+  border: 2px solid rgb(77, 2, 37);
+  border-color: transparent;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  margin: 30px 10px 10px 10px;
+  padding: 5px 18px;
+  border-radius: 2px;
+  font-family: "Pacifico", cursive;
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+  border-color: transparent;
+  box-shadow: 5px 5px 2px 1px rgba(65, 4, 44, 0.5);
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.5s;
+}
+
+button:hover {
+  background: rgb(211, 105, 155);
+  color: white;
+}
+
+@media screen and (max-width: 1115px) {
+  .BackGroundPage {
+    height: 70vh;
+    border-radius: 14rem;
+    width: 38vw;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .contentPage {
+    top: 70%;
+  }
+  .BackGroundPage {
+    height: 63vh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .contentPage {
+    left: 78%;
+    top: 75%;
+  }
+
+  .BackGroundPage {
+    height: 69vh;
+    width: 41vw;
+  }
+}
+
+@media screen and (max-width: 957px) {
+  .BackGroundPage {
+    width: 43vw;
+  }
+}
+
+@media screen and (max-width: 894px) {
+  .BackGroundPage {
+    margin-left: 11rem;
+    width: 45vw;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  .BackGroundPage {
+    margin-left: 10rem;
+    width: 48vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .BackGroundPage {
+    margin-left: 9rem;
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .contentPage {
+    top: 79%;
+  }
+  .BackGroundPage {
+    width: 52vw;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .BackGroundPage {
+    width: 54vw;
+  }
+}
+
+@media screen and (max-width: 701px) {
+  .BackGroundPage {
+    margin-left: 5rem;
+    width: 59vw;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .BackGroundPage {
+    width: 62vw;
+  }
+}
+
+@media screen and (max-width: 629px) {
+  .BackGroundPage {
+    width: 65vw;
+  }
+}
+@media screen and (max-width: 591px) {
+  .BackGroundPage {
+    width: 65vw;
+    height: 64vh;
+  }
+  .contentPage {
+    top: 74%;
+    left: 85%;
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 547px) {
+  .BackGroundPage {
+    width: 64vw;
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 508px) {
+  .BackGroundPage {
+    height: 56vh;
+    margin-left: 4rem;
+    margin-top: 5rem;
+  }
+  .contentPage {
+    top: 83%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .BackGroundPage {
+    margin-left: 3rem;
+    width: 70vw;
+  }
+  input {
+    padding: 8px 2px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .BackGroundPage {
+    margin-left: 1rem;
+    width: 74vw;
+  }
+
+  .contentPage {
+    top: 84%;
+    left: 83%;
+    width: 50vw;
+  }
+  input {
+    padding: 8px 8px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contentPage {
+    top: 82%;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .BackGroundPage {
+    width: 77vw;
+    height: 54vh;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  input {
+    padding: 8px 6px;
+  }
+  .BackGroundPage {
+    width: 79vw;
+    height: 52vh;
+  }
+  .contentPage {
+    left: 87%;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  input {
+    padding: 8px 4px;
+  }
+
+  .BackGroundPage {
+    width: 80vw;
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  input {
+    padding: 8px 0px;
+  }
+
+  .BackGroundPage {
+    height: 48vh;
+  }
+}
+
+@media screen and (max-width: 358px) {
+  input {
+    width: 42vw;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  input {
+    width: 42vw;
+  }
+  .contentPage {
+    width: 52vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .ViewerBtn {
+    margin: 30px 6px 10px 10px;
+  }
+}
+
+@media screen and (max-width: 304px) {
+  .ViewerBtn {
+    padding: 5px 14px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .BackGroundPage {
+    height: 45vh;
+    width: 82vw;
+  }
+}
+
+@media screen and (max-width: 289px) {
+  .BackGroundPage {
+    height: 44vh;
+    width: 84vw;
+  }
+  .contentPage p {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .BackGroundPage {
+    width: 88vw;
+  }
+}

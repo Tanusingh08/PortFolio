@@ -1,0 +1,239 @@
+.contactSection {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0rem 20rem;
+}
+
+.UserInformation {
+  background-color: rgb(245, 226, 234);
+  box-shadow: 5px 5px 0px rgb(211, 104, 154);
+  padding: 4rem;
+}
+
+a {
+  color: #ff004f;
+  font-size: larger;
+}
+
+.social-media {
+  margin: 10px;
+  font-size: 20px;
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Info h1 {
+  font-size: 30px;
+  font-weight: 900;
+  padding: 1rem;
+}
+
+.area {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem;
+}
+.email {
+  width: 17vw;
+}
+
+.phoneNo {
+  width: 10vw;
+}
+
+@media screen and (max-width: 1115px) {
+  .contactSection {
+    margin: 0rem 15rem;
+  }
+
+  .social-media {
+    width: 15vw;
+  }
+
+  .email {
+    width: 22vw;
+  }
+
+  .phoneNo {
+    width: 12vw;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .email {
+    width: 25vw;
+  }
+
+  .phoneNo {
+    width: 15vw;
+  }
+}
+
+@media screen and (max-width: 927px) {
+  .contactSection {
+    margin: 0rem 10rem;
+  }
+}
+
+@media screen and (max-width: 754px) {
+  .social-media {
+    width: 20vw;
+  }
+
+  .email {
+    width: 30vw;
+  }
+
+  .phoneNo {
+    width: 18vw;
+  }
+}
+
+@media screen and (max-width: 697px) {
+  .email {
+    width: 33vw;
+  }
+  .contactSection {
+    margin: 0rem 7rem;
+  }
+}
+
+@media screen and (max-width: 697px) {
+  .email {
+    width: 35vw;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .contactSection {
+    margin: 0rem 5rem;
+  }
+  .email {
+    width: 40vw;
+  }
+
+  .phoneNo {
+    width: 22vw;
+  }
+
+  .social-media {
+    width: 25vw;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .contactSection {
+    margin: 0rem 4rem;
+  }
+  .email {
+    width: 45vw;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .email {
+    width: 50vw;
+  }
+
+  .phoneNo {
+    width: 28vw;
+  }
+
+  .social-media {
+    width: 30vw;
+  }
+}
+
+@media screen and (max-width: 461px) {
+  .Info h1 {
+    font-size: 30px;
+    font-weight: 900;
+    padding: 1rem;
+    width: 50vw;
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .email {
+    width: 55vw;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .download-btn {
+    width: 35vw;
+  }
+}
+@media screen and (max-width: 395px) {
+  .email {
+    width: 60vw;
+  }
+  .phoneNo {
+    width: 30vw;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .download-btn {
+    width: 40vw;
+  }
+  .social-media {
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .contactSection {
+    margin: 0rem 4rem 0rem 1rem;
+  }
+  .email {
+    width: 65vw;
+  }
+  .phoneNo {
+    width: 35vw;
+  }
+  .Info h1 {
+    margin-left: 30%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .download-btn {
+    width: 50vw;
+  }
+  .email {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 313px) {
+  .Info h1 {
+    font-size: 25px;
+  }
+  .phoneNo {
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .email {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 285px) {
+  .email {
+    font-size: 13px;
+  }
+  .social-media {
+    width: 45vw;
+  }
+}

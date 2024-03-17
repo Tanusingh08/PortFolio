@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+.topNav {
+  margin: 0 8rem 2rem 8rem;
+}
+
+.innerNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(234, 226, 236);
+  box-shadow: 7px 6px 0px rgb(211, 105, 155);
+}
+
+.innerNav h2 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.innerNav h2,
+.icons {
+  padding: 2rem;
+  color: rgb(78, 77, 74);
+}
+
+.icons {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.innerNav2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(234, 226, 236);
+  box-shadow: 7px 6px 0px rgb(211, 105, 155);
+  transition: height 0.5s;
+  height: 10vh;
+}
+
+.topNav .innerNav2 ul li {
+  list-style: none;
+  font-size: 18px;
+  margin: 20px;
+  cursor: pointer;
+  font-family: "Ubuntu", sans-serif;
+  transition: font-size 0.5s;
+}
+.innerNav2 .links {
+  color: rgb(212, 114, 160);
+  font-weight: 600;
+}
+
+.innerNav2 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.innerNav2 .icon2 {
+  padding: 2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1072px) {
+  .innerNav2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+  }
+  .innerNav2 ul {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 927px) {
+  .innerNav2 ul {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 885px) {
+  .innerNav2 {
+    height: 42vh;
+  }
+  .innerNav2 ul {
+    display: block;
+  }
+
+  .innerNav2 .icons {
+    margin-top: -26%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .innerNav2 .icons {
+    margin-top: -30%;
+  }
+}
+
+@media screen and (max-width: 752px) {
+  .innerNav2 .icons {
+    margin-top: -37%;
+  }
+}
+
+@media screen and (max-width: 743px) {
+  .topNav {
+    margin: 0 5rem 2rem 5rem;
+  }
+  .innerNav2 .icons {
+    margin-top: -30%;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .topNav {
+    margin: 0 3rem 2rem 3rem;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .innerNav2 .icons {
+    margin-top: -38%;
+  }
+}
+
+@media screen and (max-width: 556px) {
+  .innerNav2 .icons {
+    margin-top: -40%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .topNav {
+    margin: 0 1rem 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .innerNav2 .icons {
+    margin-top: -48%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .innerNav2 .icons {
+    margin-top: -55%;
+  }
+}
+
+@media screen and (max-width: 327px) {
+  .innerNav2 .icons {
+    margin-top: -62%;
+  }
+}
+
+@media screen and (max-width: 301px) {
+  .topNav {
+    margin: 0 10px 2rem 0rem;
+  }
+}

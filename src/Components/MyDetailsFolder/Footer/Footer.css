@@ -1,0 +1,47 @@
+.footerSection {
+  margin-top: 5%;
+  background-color: rgb(226, 192, 209);
+  border-top: 2px solid rgb(226, 134, 191);
+}
+
+.footerSection p {
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.heart {
+  color: rgb(233, 23, 58);
+  font-size: 15px;
+  transition: transform 0.5s;
+}
+
+.heart:hover {
+  transform: scale(1.7);
+}
+
+@media screen and (max-width: 520px) {
+  .footerSection p {
+    padding: 0 2rem;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .footerSection p {
+    font-size: 15px;
+    padding: 0;
+  }
+  .footerSection {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .footerSection p {
+    font-size: 13px;
+  }
+}
