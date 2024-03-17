@@ -14,8 +14,7 @@ function AboutPage() {
               I am seeking a software engineering role where I can leverage my
               technical expertise, problem-solving abilities, and passion for
               innovation to contribute to the success of dynamic projects and
-              also passionate about staying up-to-date with industry trends and
-              technologies to continually enhance my skill set.
+              also passionate about staying up-to-date with industry trends 
             </p>
           </div>
         </div>
